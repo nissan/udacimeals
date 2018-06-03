@@ -21,5 +21,6 @@ export function removeFromCalendar({
     return {
         type: REMOVE_FROM_CALENDAR,
         day,
+        meal
     }
 }
